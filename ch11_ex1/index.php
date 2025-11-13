@@ -6,9 +6,9 @@ if ($task_list === NULL) {
     $task_list = [];
     
 //    add some hard-coded starting values to make testing easier
-//    $task_list[] = 'Write chapter';
-//    $task_list[] = 'Edit chapter';
-//    $task_list[] = 'Proofread chapter';
+$task_list[] = 'Write chapter';
+$task_list[] = 'Edit chapter';
+$task_list[] = 'Proofread chapter';
 }
 
 //get action variable from POST
