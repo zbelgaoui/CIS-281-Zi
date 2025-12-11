@@ -1,0 +1,123 @@
+/* BASIC PAGE */
+body {
+    font-family: Arial, sans-serif;
+    background: #fff8e6;
+    margin: 0;
+}
+
+/* HEADER / NAVBAR */
+header {
+    background: #ff8c42;
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    color: white;
+    margin: 0;
+    font-size: 26px;
+    font-weight: bold;
+}
+
+nav {
+    margin-top: 10px;
+}
+
+nav a {
+    color: rgb(86, 47, 3);
+    margin: 0 15px;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+/* MAIN CONTAINER */
+.container {
+    width: 85%;
+    margin: 20px auto;
+}
+
+/* FORMS */
+form {
+    background: #ffffff;
+    padding: 15px;
+    margin-bottom: 25px;
+    border-radius: 12px;
+    box-shadow: 0 3px 10px rgba(0,0,0,0.1);
+}
+
+/* INPUTS AND TEXTAREAS */
+input[type="text"],
+textarea,
+select {
+    width: 100%;
+    padding: 10px;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+    margin-top: 10px;
+    font-size: 14px;
+    box-sizing: border-box;
+    resize: vertical; /* only vertical resize */
+}
+
+/* Submit / Buttons */
+button, input[type="submit"] {
+    background: #34a853;
+    color: white;
+    padding: 10px 12px;
+    border: none;
+    border-radius: 7px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+button:hover, input[type="submit"]:hover {
+    background: #2f8b46;
+}
+
+/* DELETE BUTTON */
+.delete-btn {
+    background: #d11a2a;
+    padding: 8px 12px;
+    border-radius: 6px;
+    color: white;
+}
+
+.delete-btn:hover {
+    background: #b01522;
+}
+
+/* RECIPE GRID */
+.recipe-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+    gap: 20px;
+}
+
+/* RECIPE CARD */
+.recipe-card {
+    background: white;
+    padding: 15px;
+    border-radius: 12px;
+    box-shadow: 0 3px 10px rgba(0,0,0,0.1);
+    text-align: center;
+}
+
+.recipe-card img {
+    width: 120px;
+    height: 120px;
+    border-radius: 10px;
+    object-fit: cover;
+    margin-bottom: 10px;
+}
+
+/* MOBILE FRIENDLY */
+@media (max-width: 600px) {
+    .container {
+        width: 95%;
+    }
+}

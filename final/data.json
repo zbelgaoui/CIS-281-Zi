@@ -1,0 +1,55 @@
+{
+    "recipes": [
+        {
+            "id": 1,
+            "title": "Creamy Chicken Pasta",
+            "ingredients": "Pasta\nChicken\nCream\nGarlic\nParmesan\nOlive Oil",
+            "image": "pasta.jpg"
+        },
+        {
+            "id": 2,
+            "title": "Fresh Garden Salad",
+            "ingredients": "Lettuce\nTomatoes\nCucumbers\nOlive Oil\nSalt",
+            "image": "salad.jpg"
+        },
+        {
+            "id": 3,
+            "title": "Beef Burger",
+            "ingredients": "Beef Patty\nLettuce\nTomato\nCheese\nBun",
+            "image": "burger.jpg"
+        },
+        {
+            "id": 4,
+            "title": "Chicken Curry",
+            "ingredients": "Chicken\nCurry Paste\nOnions\nCoconut Milk",
+            "image": "curry.jpg"
+        },
+        {
+            "id": 5,
+            "title": "Pancakes with Syrup",
+            "ingredients": "Flour\nMilk\nEggs\nSugar\nButter",
+            "image": "pancake.jpg"
+        },
+        {
+            "id": 6,
+            "title": "Vegetable Soup",
+            "ingredients": "Carrots\nPotatoes\nOnions\nVegetable Stock",
+            "image": "soup.jpg"
+        },
+        {
+            "id": 7,
+            "title": "Cheese Omelette",
+            "ingredients": "Eggs\nCheese\nButter\nSalt",
+            "image": "omelet.jpg"
+        }
+    ],
+    "mealplan": {
+        "monday": "Fresh Garden Salad",
+        "tuesday": "Chicken Curry",
+        "wednesday": "Vegetable Soup",
+        "thursday": "Cheese Omelette",
+        "friday": "Beef Burger",
+        "saturday": "Cheese Omelette",
+        "sunday": "Creamy Chicken Pasta"
+    }
+}
