@@ -13,7 +13,7 @@ header {
 }
 
 header h1 {
-    color: white;
+    color: #ffffcc;
     margin: 0;
     font-size: 26px;
     font-weight: bold;
@@ -120,4 +120,5 @@ button:hover, input[type="submit"]:hover {
     .container {
         width: 95%;
     }
+
 }
